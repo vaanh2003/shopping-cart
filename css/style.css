@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+/* CODE VIẾT CSS PHẦN MENU */
+.tong-header{
+    width: 95%;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    box-shadow: 5px;
+    padding-top: 15px;
+}
+.item-logo{
+    display: flex;
+    align-items: center;
+
+    
+}
+.item-logo img{
+    width: 170px;
+    height: 47px;
+}
+.item-menu{
+    width: 500px;
+}
+.item-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.item-menu ul a{
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+.item-menu ul a li{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.item-menu ul a img{
+    width: 12px;
+    padding-left: 5px;
+    
+}
+.item-admin{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+.item-admin a img{
+    width: 25px;
+    height: 25px;
+}
+.slite{
+    width: 100%;
+}
+.slite img{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    width: 96%;
+    margin: 0 auto;
+    margin: 50px auto 0 auto ;
+}
+/* đăy là code phần section */ 
+section{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+} 
+/* phần hướng dẫ sử dụng admin */
+.tong-section{
+    width: 15%;
+    height: 500px;
+    border: 5px 
+    black solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.tieude-listdb h1{
+    margin-top: 100px;
+}
+.tieude-listdb{
+    margin: 0 auto;
+    width: 260px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+.section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.item-section2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.item-item {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-item h2 {
+    letter-spacing: 3px;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.item-item p {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #6b6969;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.item-item button {
+    border: none;
+    width: 190px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+/* css item chức năng */
+.item-chucnang{
+    margin: 0 0 20px 0;
+    width: 90%;
+}
+.item-chucnang a{
+    display: flex;
+    align-items: center;
+}
+.item-chucnang a img{
+    width: 25px;
+    margin-right: 5px;
+}
+.item-chucnang a li{
+    color: black;
+    font-size: 18px;
+    
+}
+.item-section1{
+    height: 50%;
+    width: 100%;
+}
+/* css xuất sangpham */
+.section2-sangpham{
+    margin-left: 10px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 100%;
+}
+.item-sangpham{
+    width: 24%;
+    margin-bottom: 20px;
+}
+.xuat-dh{
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.item-sangphamdb{
+    width: 90%;
+    margin: 0 auto;
+    border: black solid 1px;
+}
+
+.sangpham{
+    border: #9f8866 solid 5px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.sangpham img{
+    width: 50%;
+}
+.thongso-sangpham li{
+    margin-bottom: 5px;
+}
+.cn-sangpham{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cn-sangpham input{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+.datbiet form{
+    margin: 0 0 0 20px;
+}
+.datbiet form select{
+    border: 2px solid black;
+}
+/* css xuất danh mục */
+.section2-danhmuc{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.item-danhmuc{
+    width: 30%;
+}
+.danhmuc{
+    display: flex;
+    border: #9f8866 solid 5px;
+    align-items: center;
+}
+.danhmuc img{
+    width: 35%;
+}
+.thongso-danhmuc li{
+    margin-bottom: 5px;
+}
+.cn-danhmuc{
+    text-align: center;
+    margin: 0 auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.cn-danhmuc input{
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+/* css xuất taikhoan */
+.section2-taikhoan{
+    margin-left: 10px;
+    width: 85%;
+}
+.item-taikhoan{
+    margin-bottom: 5px;
+}
+.taikhoan{
+    display: flex;
+    border: 3px black solid;
+    width: 70%;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.section2-taikhoan input{
+    width: 100px;
+    margin: 10px 0 0 0;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+.datbiet{
+    width: 100%;
+}
+/* css thêm sảng phẩm */
+.section2-themsp{
+    margin-left: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.item-themsp{
+    display: flex;
+    width: 1100px;
+    
+}
+.themsp{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    border: rgb(113, 112, 112) solid 4px;
+    margin-bottom: 5px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+}
+.cn-themsp{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* css thống kê */
+.section2-thongke{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.item-thongke{
+    width: 27%;
+    text-align: center ;
+    border: 1px rgb(217, 217, 217) solid;
+    border-radius: 9px;
+    height: 300px;
+}
+.thongke-db{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.item-tieu-de-tk{
+    width: 100%;
+    margin-top: 20px;
+}

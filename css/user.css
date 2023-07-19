@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    
+}
+
+li {
+    
+    
+    list-style-type: none;
+}
+/* CODE VIẾT CSS PHẦN MENU */
+.danhmuc-sp{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 20px;
+    right:  5px;
+    background-color: white;
+    display: none;
+    padding-top: 20px;
+    box-shadow: 2px 5px 5px rgb(150, 150, 150);
+    color: rgb(218, 36, 36);
+    
+    
+}
+.danhmuc-sp a {
+ 
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(187, 188, 188);
+    height: 50px;
+}
+
+.cha-danhmuc-sp{
+    position: relative;
+}
+.cha-danhmuc-sp:hover .danhmuc-sp{
+    display: inline-block;
+    transition: all 10s;
+}
+.tong-header{
+    width: 95%;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    box-shadow: 5px;
+    padding-top: 15px;
+    
+}
+.item-logo{
+    display: flex;
+    align-items: center;
+
+    
+}
+.item-logo img{
+    width: 170px;
+    height: 47px;
+}
+.item-menu{
+    width: 500px;
+}
+.item-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.item-menu ul a{
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+.item-menu ul div a {
+    height: 10px;
+    width: 125px;
+    align-items: center;
+}
+
+.item-menu ul a li{
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.item-menu ul a img{
+    width: 12px;
+    padding-left: 5px;
+    
+}
+.item-chucnang{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.item-chucnang a img{
+    width: 25px;
+    height: 25px;
+}
+.slite{
+    width: 100%;
+}
+.slite img{
+    width: 100%;
+}
+/*END  */
+/* css phần giới thiệu danh mục */
+section{
+    margin-top: 50px;
+}
+.section1{
+    width: 85%;
+    margin: 0 auto;
+}
+.tieude-list{
+    margin: 0 auto;
+    width: 260px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+.ten-dm{
+    margin: 100px auto 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.item-ten-dm{
+    border: 4px solid black;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.anh-dm{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.anh-dm img{
+    width: 400px;
+}
+/* section3 */
+.tieude-listdb h1{
+    margin-top: 100px;
+}
+.tieude-listdb{
+    margin: 0 auto;
+    width: 260px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+.section2 {
+    width: 100%;
+    margin-top: 125px;
+    display: flex;
+}
+
+.item-section2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.item-item {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-item h2 {
+    letter-spacing: 3px;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.item-item p {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #6b6969;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.item-item button {
+    border: none;
+    width: 190px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+/* css xuất sảng phản nổi bật */
+.tieude-list-section3{
+    margin: 100px auto 0 auto;
+    width: 260px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+.item-sangpham{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #222222 solid 2px;
+    padding-bottom: 10px;
+}
+.sangpham{
+    width: 22%;
+}
+.spsection{
+    width: 100%;
+}
+.sang-pham img{
+    width: 70%;
+}
+.gia{
+    margin: 0 auto;
+}
+.gia .p1{
+    font-size: 12px;
+    font-weight: 650;
+    font-family: 'Rubik', sans-serif;
+}
+.gia .p2{
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* phần đăng kí nhận giảm giá */
+.dangki{
+    width: 75%;
+    background-color: black;
+    margin: 100px auto 0 auto;
+    height: 200px;
+    display: flex;
+}
+.item-dangki-text p{
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    width:75%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.item-dangki-buttom{
+    height: 100%;
+    display: flex;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.cha{
+    border: 5px solid white;
+    width: 300px;
+    height: 80px;
+    position: relative;
+}
+.con{
+    color: black;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(239, 239, 239);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.con p {
+    font-size: 30px;
+    font-weight: 600;
+} 
+/* xuất sảng phẩm */
+.sangpham{
+    width: 90%;
+    margin: 0 auto 200px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+a{
+    width: 25%;
+    color: black;
+}
+.item-sp{
+    width: 100%;
+}
+.item-sp img{
+    width: 100%;
+}
+.gia{
+    text-align: center;
+}
+.gia .p1{
+    font-size: 12px;
+    font-weight: 650;
+    font-family: 'Rubik', sans-serif;
+}
+.gia .p2{
+    font-size: 14px;
+}
+/* liên hệ cửa hàng */
+.lien-he{
+    display: flex;
+    margin-left: 73px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-right: 30px;
+}    
+.lien-he .cua-hang .item-tieu-de>p{
+    font-size: 13px;
+    color: rgb(66, 65, 65);
+    line-height: 1.8;
+}
+.tieu-de{
+    margin-bottom: 30px;
+}
+.icon1>a>img{
+    width: 50px;
+    height: 50px;
+}
+.icon-hai>a>img{
+    width: 200px;
+}
+.icon-tong{
+    width: 100%;
+}
+.item-icon{
+    margin-right: 20px;
+    
+}
+.hethang{
+    background-color: rgb(146, 146, 146);
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1px;
+    color: white;
+    margin: 0 auto;
+}
